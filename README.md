@@ -1,5 +1,5 @@
 #Gulp.js
-![Automate all the tasks meme](http://cdn.meme.am/instances2/500x/626620.jpg)
+![Automate all the tasks meme](https://cdn.meme.am/instances2/500x/626620.jpg)
 
 ##Why is Gulp useful?
 ![Gulp logo](http://brunch.io/images/others/gulp.png)
@@ -18,7 +18,7 @@ But wait, doesn't *Grunt* do the same thing? Technically yes. However, there are
 
 Now that we know why Gulp is useful, let's take a second to take a drink...
 
-![Sarah Palin big gulp](http://www.survivingcollege.com/wp-content/uploads/2013/03/Sarah-Palin-Big-Gulp-College-Republicans.gif)
+![Sarah Palin big gulp](https://www.survivingcollege.com/wp-content/uploads/2013/03/Sarah-Palin-Big-Gulp-College-Republicans.gif)
 
 Alright, now for some roadblocks.
 
