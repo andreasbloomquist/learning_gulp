@@ -20,7 +20,7 @@ Now that we know why Gulp is useful, let's take a second to take a drink...
 
 ![big gulp](http://33.media.tumblr.com/f05ba5ce2e8faa461eee27f69ae3d0c7/tumblr_mjs1sxOSdM1qzlc1ro1_500.gif "sarah palin")
 
-Alright, now for some roadblocks.
+Mmm that was refreshing! Now for some roadblocks.
 
 ##What are the roadblocks?
 Learning the Gulp api is very simple and easy to use. However, creating more complex tasks requires installing numerous plug-ins for each specific function desired. For example, a plugin for prefixing ".min" on a file is required (if you wanted to follow convention that is...), and another plugin for actually minifying the file is also required. This can add a lot of dependencies to your project, but then again, probably fewer dependencies than rails, just saying. In addition, it's important to find the right Gulp plug-ins that match the libraries you're using on your project.
@@ -54,7 +54,7 @@ gulp.task('default', function() {
 });
 ```
 
-##Additional ready
+##Additional resources/reading
 
 - [Gulp docs](https://github.com/gulpjs/gulp/blob/master/docs/API.md)
 - [Gulp Plugins](http://gulpjs.com/plugins/)
