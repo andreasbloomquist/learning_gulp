@@ -1,7 +1,9 @@
 #Gulp.js
-![Automate all the tasks meme]](http://cdn.meme.am/instances2/500x/626620.jpg)
+![Automate all the tasks meme](http://cdn.meme.am/instances2/500x/626620.jpg)
 
-**Why is Gulp useful?**
+##Why is Gulp useful?
+![Gulp logo](http://brunch.io/images/others/gulp.png)
+
 Gulp is a simple tool, built on Node, that makes it easy to create automated tasks. For example, Gulp can be used to quickly create tasks for compiling Sass into CSS, minifying CSS, or contactenating/uglifying JS files.
 
 Performing tasks like this allows for your app to more efficiently serve up CSS and JS assets by allowing you to write styles and javascript in multiple files, but only needing to link to one concatenated file in your HTML.
@@ -14,16 +16,29 @@ But wait, doesn't *Grunt* do the same thing? Technically yes. However, there are
 
 *Gulp* on the otherhand is easier to get setup, and it's syntax mimics Node's making it familiar to many. Aside from fewer lines of code to write, *Gulp* is stream based, meaning you simply pipe the commands you want run and *Gulp* will attempt to run those tasks in maximum concurrency. This generally makes *Gulp* very fast.
 
-**What are the roadblocks?**
-Learning the Gulp api is very simple and easy to use. However, creating more complex tasks requires installing numerous plug-ins for each specific function desired. For example, a plugin for prefixing ".min" on a file is required (if you wanted to follow convention that is...), and another plugin for actually minifying the file is also required. This can add a lot of dependencies to your project, but then again, probably fewer dependencies than rails, just saying.
+Now that we know why Gulp is useful, let's take a second to take a drink...
 
-**What are the takeaways/lessons learned?**
+![Sarah Palin big gulp](http://www.survivingcollege.com/wp-content/uploads/2013/03/Sarah-Palin-Big-Gulp-College-Republicans.gif)
+
+Alright, now for some roadblocks.
+
+##What are the roadblocks?
+Learning the Gulp api is very simple and easy to use. However, creating more complex tasks requires installing numerous plug-ins for each specific function desired. For example, a plugin for prefixing ".min" on a file is required (if you wanted to follow convention that is...), and another plugin for actually minifying the file is also required. This can add a lot of dependencies to your project, but then again, probably fewer dependencies than rails, just saying. In addition, it's important to find the right Gulp plug-ins that match the libraries you're using on your project.
+
+For example, there are a couple packages for using Sass with Node, ```node-sass-middleware``` & ```ruby-sass```. It is important to realize that there are actually two different *Gulp* plugins for these, ```gulp-sass``` & ```gulp-ruby-sass```.
+
+However, these roadblocks are relatively minor in comparison to setting up *Grunt*. *Grunt* will have you all like...
+
+![Lion king gif](http://24.media.tumblr.com/tumblr_lsfk1fde721qa6nebo4_250.gif)
+
+
+##What are the takeaways/lessons learned?
 For most Rails projects, using Gulp may or may not improve efficiency or make your life easier. However, for a Node app Gulp can be very useful to help optimize serving your assets, while still allowing you to remain modular. In addition, it's important to stay informed of the latest Gulp plugins to know what addition features can be added on to Gulp.
 
-**Examples**
+##Examples
 For a small example of automating Sass compilation, CSS minifying, and JS Concatenation/uglification see the files contained in this repo.
 
-*Getting Setup*
+**Getting Setup**
 
 ```
 npm install --save-dev gulp
@@ -39,5 +54,10 @@ gulp.task('default', function() {
 });
 ```
 
-See [here](http://gulpjs.com/plugins/) for a full list of Gulp plugins available.
+##Additional ready
+
+- [Gulp docs](https://github.com/gulpjs/gulp/blob/master/docs/API.md)
+- [Gulp Plugins](http://gulpjs.com/plugins/)
+- [Slides about Gulp](http://slides.com/contra/gulp#/)
+- 
 
