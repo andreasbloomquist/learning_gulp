@@ -86,3 +86,4 @@ grunt.registerTask('build', ['clean', 'bower', 'browserify', 'concat', 'copy']);
 - [Slides about Gulp](http://slides.com/contra/gulp#/)
 - [Pre-made gulp recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
 - [Get started with Gulp on the Youtubes](https://www.youtube.com/playlist?list=PLRk95HPmOM6PN-G1xyKj9q6ap_dc9Yckm)
+- [Grunt vs Gulp](https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4)
