@@ -1,5 +1,5 @@
 #Gulp.js
-![Automate all the tasks meme](https://cdn.meme.am/instances2/500x/626620.jpg)
+![Automate all the tasks meme](https://i.imgflip.com/nwmqn.jpg)
 
 ##Why is Gulp useful?
 ![Gulp logo](http://brunch.io/images/others/gulp.png)
