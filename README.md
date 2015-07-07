@@ -18,7 +18,7 @@ But wait, doesn't *Grunt* do the same thing? Technically yes. However, there are
 
 Now that we know why Gulp is useful, let's take a second to take a drink...
 
-![big gulp](https://www.survivingcollege.com/wp-content/uploads/2013/03/Sarah-Palin-Big-Gulp-College-Republicans.gif "sarah palin")
+![big gulp](http://33.media.tumblr.com/f05ba5ce2e8faa461eee27f69ae3d0c7/tumblr_mjs1sxOSdM1qzlc1ro1_500.gif "sarah palin")
 
 Alright, now for some roadblocks.
 
