@@ -53,6 +53,31 @@ gulp.task('default', function() {
   // place code for your default task here
 });
 ```
+Compare the above to this example of how a typical Grunt configuration might look like:
+
+```
+grunt.initConfig({
+  clean: {
+    src: ['build/app.js', 'build/vendor.js']
+  },
+  
+  copy: {
+    files: [{
+      src: 'build/app.js',
+      dest: 'build/dist/app.js'
+    }]
+  }
+  
+  concat: {
+    'build/app.js': ['build/vendors.js', 'build/app.js']
+  }
+  
+  // ... other task configurations ...
+  
+});
+ 
+grunt.registerTask('build', ['clean', 'bower', 'browserify', 'concat', 'copy']);
+```
 
 ##Additional resources/reading
 
