@@ -1,8 +1,14 @@
 $main_color: #fafafa;
 
 body{
-	color: $main_color;
+	background-color: $main_color;
 }
 a {
 	transition: transform 1s;
+}
+h1{
+	color: red;
+}
+p{
+	color: black;
 }
