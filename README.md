@@ -1,5 +1,5 @@
 #Gulp.js
-![Automate all the tasks meme]](http://cdn.meme.am/instances2/500x/626620.jpg)
+![Automate all the tasks meme](http://cdn.meme.am/instances2/500x/626620.jpg)
 
 **Why is Gulp useful?**
 Gulp is a simple tool, built on Node, that makes it easy to create automated tasks. For example, Gulp can be used to quickly create tasks for compiling Sass into CSS, minifying CSS, or contactenating/uglifying JS files.
